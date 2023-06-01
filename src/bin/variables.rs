@@ -18,4 +18,13 @@ fn main() {
 
         variable_mutable += 1;
     }
+
+
+    let number_integer : i32 = 4;
+
+    println!("This is a integer number {:?}", number_integer);
+
+    let number_float : f32 = 3.1415926;
+
+    println!("This is a float number {:?}. 'Oh, I'm number PI'", number_float);
 }
